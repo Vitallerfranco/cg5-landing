@@ -17,7 +17,7 @@ export default function Footer() {
           {/* Brand */}
           <div>
             <div className="mb-3">
-              <img src="/logocg5sinfondo.png" alt="CG5" className="h-14 w-auto object-contain"
+              <img src={`${import.meta.env.BASE_URL}logocg5sinfondo.png`} alt="CG5" className="h-14 w-auto object-contain"
                 style={{ filter: 'drop-shadow(0 0 12px rgba(224,64,251,0.45))' }} />
             </div>
             <p className="text-white/35 text-sm leading-relaxed">

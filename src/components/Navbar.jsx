@@ -27,7 +27,7 @@ export default function Navbar({ onNavigate, currentPage }) {
 
         {/* Logo */}
         <button onClick={goHome} className="flex items-center group shrink-0">
-          <img src="/logocg5sinfondo.png" alt="CG5" className="w-auto object-contain transition-all group-hover:scale-105" style={{ height: 42, filter:'drop-shadow(0 0 12px rgba(224,64,251,0.65))' }} />
+          <img src={`${import.meta.env.BASE_URL}logocg5sinfondo.png`} alt="CG5" className="w-auto object-contain transition-all group-hover:scale-105" style={{ height: 42, filter:'drop-shadow(0 0 12px rgba(224,64,251,0.65))' }} />
         </button>
 
         {/* Desktop links */}

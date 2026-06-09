@@ -7,8 +7,8 @@ export const sections = [
 
 const img = (front, back) => {
   const arr = []
-  if (front) arr.push({ src: `/jerseys/${front}`, label: 'Frente' })
-  if (back)  arr.push({ src: `/jerseys/${back}`,  label: 'Dorsal' })
+  if (front) arr.push({ src: `${import.meta.env.BASE_URL}jerseys/${front}`, label: 'Frente' })
+  if (back)  arr.push({ src: `${import.meta.env.BASE_URL}jerseys/${back}`,  label: 'Dorsal' })
   return arr
 }
 

@@ -9,7 +9,7 @@ export default function Hero({ onShopClick }) {
       {/* ── Video background ── */}
       <div style={{ position:'absolute', inset:0, zIndex:0, overflow:'hidden' }}>
         <video
-          src="/videofondohero.mp4"
+          src={`${import.meta.env.BASE_URL}videofondohero.mp4`}
           autoPlay muted loop playsInline
           style={{
             position:'absolute', top:'50%', left:'50%',
@@ -39,7 +39,7 @@ export default function Hero({ onShopClick }) {
 
         {/* Logo */}
         <img
-          src="/logocg5sinfondo.png"
+          src={`${import.meta.env.BASE_URL}logocg5sinfondo.png`}
           alt="CG5"
           draggable={false}
           style={{
